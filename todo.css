@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400,700|PT+Mono);
 
-@color-1st: LightCoral;
-@color-2nd: GhostWhite;
-@color-3rd: Gainsboro;
 
 body{
 	background:lightcoral;
@@ -152,44 +149,3 @@ main{
 				font-size:0.8rem;
 				font-family:'PT Mono', monospace;
 			}
-
-
-// Prism.js colors
-a.token{
-	text-decoration:none;
-}
-.token
-{
-	
-	&.selector, &.punctuation, &.keyword{
-		color:PaleVioletRed;
-	}
-	
-	&.property, &.number, &.string, &.punctuation, &.tag-id{
-		color:DodgerBlue;
-	}
-	
-	&.function, &.attr-name{
-		color:CadetBlue;
-	}
-	
-	&.atrule{
-		.atrule-id{
-			color:BlueViolet;	
-		}
-	}
-	
-	&.boolean{
-		color:LightSlateGray;
-	}
-	
-	&.comment{
-		color:DarkGrey;
-	}
-}
-
-.language-php{
-	.variable{
-		color:CadetBlue;
-	}
-}
